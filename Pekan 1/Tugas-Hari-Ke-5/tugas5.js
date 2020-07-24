@@ -26,7 +26,7 @@ console.log(hasilKali)
 //Jawaban 3
 
 function introduce(name ,age, address, hobby){
-    return('Nama saya '+name+', umur saya '+age+' tahun, alamat saya di '+address+', saya punya honny yaitu '+hobby)
+    return('Nama saya '+name+', umur saya '+age+' tahun, alamat saya di '+address+', saya punya hobby yaitu '+hobby'!')
 }
  
 var name = "John"
@@ -35,4 +35,4 @@ var address = "Jalan belum jadi"
 var hobby = "Gaming"
  
 var perkenalan = introduce(name, age, address, hobby)
-console.log(perkenalan) // Menampilkan "Nama saya John, umur saya 30 tahun, alamat saya di jalan belum jadi, dan saya punya hobby yaitu Gaming!" 
+console.log(perkenalan) 
